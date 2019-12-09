@@ -4,7 +4,7 @@ const map = function(arr,fn){
 }
 const reduce = function(arr,callback,start){
   if(start != null){
-    return arr.reduce(callback,startingPoint);
+    return arr.reduce(callback,start);
   }
   return arr.reduce(callback);
 }
